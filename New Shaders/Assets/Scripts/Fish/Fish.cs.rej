@@ -1,0 +1,9 @@
+diff a/New Shaders/Assets/Scripts/Fish/Fish.cs b/New Shaders/Assets/Scripts/Fish/Fish.cs	(rejected hunks)
+@@ -84,7 +84,6 @@
+         return true;
+     }
+ 
+-        transform.position= Vector3.MoveTowards(transform.position,start_pos+Vector3.one,Time.deltaTime*21);
+     public void start_surfacing() {
+         if (surfacing)
+         {
